@@ -19,6 +19,7 @@ public class BasicEnemy : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
+		Destroy(gameObject, 10);
 		playerObject = GameObject.FindWithTag("Player").transform;
 		navAgent = GetComponent<NavMeshAgent>();
 		scoreManager = GameObject.Find("UICanvas").GetComponent<ScoreManager>();

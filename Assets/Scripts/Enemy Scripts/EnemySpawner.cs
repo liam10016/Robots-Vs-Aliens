@@ -15,6 +15,7 @@ public class EnemySpawner : MonoBehaviour
 	void Start(){
 		//InvokeRepeating("Spawn", 0.5f, spawnRate);
 		player = GameObject.FindWithTag ("Player");
+		
 	}
 	void Update()
 	{
@@ -32,6 +33,8 @@ public class EnemySpawner : MonoBehaviour
 			active = false;
 			StartCoroutine(Spawn());	
 		}
+
+		
 		
 	}
 
