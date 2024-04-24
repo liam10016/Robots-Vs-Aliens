@@ -12,7 +12,7 @@ public class PlayerShoot : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1")){
             //Fires on left mouse button
-            GameObject bulletClone = Instantiate(bulletPrefab, firePoint.transform.position, Quaternion.identity);
+            GameObject bulletClone = Instantiate(bulletPrefab, firePoint.transform.position, transform.rotation);
             Destroy(bulletClone, 5f); //deletes the bullet after a certain amount of time. 
         }
         
