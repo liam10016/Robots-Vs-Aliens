@@ -47,6 +47,6 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 6220522074702792934, guid: 822a4b3ca68320a4c8f753fc69dc45c8, type: 3}
   - {fileID: 9000420582557962511, guid: 1678764d0ef779b439ffa551b2c3d401, type: 3}
-  spawnRate: 2.67
-  spawnDistance: 111.1
+  spawnRate: 1
+  spawnDistance: 300
   enemyCount: 5
