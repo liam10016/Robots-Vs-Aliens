@@ -6113,7 +6113,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-143720
+  m_Name: pb_Mesh-1508
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -9045,6 +9045,7 @@ GameObject:
   - component: {fileID: 1267172299}
   - component: {fileID: 1267172305}
   - component: {fileID: 1267172304}
+  - component: {fileID: 1267172306}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -9197,6 +9198,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: 175
   healthSlider: {fileID: 1478047661}
+--- !u!114 &1267172306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267172297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb6d40cb3f10c248b860d5a1483a52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1289224391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11274,7 +11287,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-143594
+  m_Name: pb_Mesh-1496
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
