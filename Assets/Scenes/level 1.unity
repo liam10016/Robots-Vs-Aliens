@@ -9201,8 +9201,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4532613, y: 0.56981754, z: 1.0706615}
-  m_Center: {x: -0.2990746, y: -0.21509123, z: 0.7711935}
+  m_Size: {x: 0.4435789, y: 0.56981754, z: 1.1651745}
+  m_Center: {x: -0.2674372, y: -0.21509123, z: 0.72393703}
 --- !u!23 &1267172301
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11490,7 +11490,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1496
+  m_Name: pb_Mesh-72328
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
