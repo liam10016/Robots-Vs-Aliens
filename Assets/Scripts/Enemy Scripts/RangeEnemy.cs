@@ -22,8 +22,6 @@ public class RangeEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        Destroy(gameObject, 4);
         playerObject = GameObject.FindWithTag("Player").transform;
         navAgent = GetComponent<NavMeshAgent>();
         scoreManager = GameObject.Find("UICanvas").GetComponent<ScoreManager>();
