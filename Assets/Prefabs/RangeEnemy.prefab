@@ -141,8 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3177fa96b0841429f03dbe6bcfc492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 20
-  attackRange: 20
-  attackRate: 1
+  enemyHealth: 15.4
+  attackRange: 31
+  attackRate: 2.26
   ScoreAmount: 20
   enemyProjectile: {fileID: 8644868603179157767, guid: db811333a6d004e48b44591d1aa4cbd7, type: 3}

@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab8fb7fb331df840be492a6d4f43e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 5
-  enemyDamage: 20
-  attackRange: 1
-  ScoreAmount: 20
+  enemyHealth: 6.07
+  enemyDamage: 23.9
+  attackRange: 2.02
+  ScoreAmount: 100
